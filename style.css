@@ -1244,4 +1244,58 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .footer-bottom { flex-direction: column; text-align: center; }
   .why-stats-grid { grid-template-columns: 1fr 1fr; }
   .nav-top-bar { display: none; }
+  
+  .doctor-grid { gap: 32px; }
+  .doctor-experience-badge { right: 0; bottom: 10px; padding: 12px 16px; }
+  .doctor-experience-badge strong { font-size: 1.5rem; }
+  .doctor-qualification-badge { left: 0; top: 10px; }
+}
+
+@media (max-width: 600px) {
+  :root { --section-pad: 40px 20px; }
+  
+  .hero-title { font-size: 1.85rem !important; line-height: 1.15 !important; }
+  .hero-desc { font-size: 0.9rem !important; }
+  .section-title { font-size: 1.7rem !important; line-height: 1.25 !important; }
+  
+  /* Force hide tagline to save vertical space */
+  .logo-tagline { display: none !important; }
+  .logo-name { font-size: 1.1rem !important; }
+  .logo-icon { width: 36px !important; height: 36px !important; }
+  
+  /* Compact sticky buttons */
+  .sticky-appt-btn span { display: none !important; }
+  .sticky-appt-btn { 
+    padding: 14px !important; 
+    border-radius: 50% !important; 
+    width: 52px !important; 
+    height: 52px !important; 
+    justify-content: center !important;
+    font-size: 1.25rem !important;
+  }
+  
+  /* Prevent badge overlap by moving to relative flow */
+  .doctor-experience-badge, 
+  .doctor-qualification-badge { 
+    position: relative !important; 
+    right: auto !important; 
+    bottom: auto !important; 
+    left: auto !important; 
+    top: auto !important;
+    margin: 8px auto !important;
+    width: fit-content !important;
+    display: block !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+  .doctor-photo-wrap {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0 !important;
+    margin-bottom: 24px;
+  }
+  .doctor-photo-bg {
+    margin-bottom: 8px;
+  }
 }
