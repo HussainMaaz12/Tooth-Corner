@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dental Services | The Dental Center — Greater Noida</title>
+  <meta name="description" content="Explore our comprehensive range of specialized dental services at The Dental Center, from pediatric care to orthodontics and cosmetic smile makeovers." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yourdentalsite.com/services" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .page-hero {
+      background: linear-gradient(135deg, var(--clr-primary-dark) 0%, var(--clr-primary) 100%);
+      padding: 160px 24px 80px;
+      text-align: center;
+    }
+    .page-hero h1 { font-family: var(--font-display); font-size: clamp(2rem,5vw,3.5rem); color: white; margin-bottom: 16px; }
+    .page-hero p { color: rgba(255,255,255,0.8); font-size: 1.05rem; max-width: 540px; margin: 0 auto; }
+    .services-full { padding: var(--section-pad); }
+    .service-full-card {
+      display: grid; grid-template-columns: 1fr 1.5fr; gap: 60px;
+      align-items: center; padding: 60px 0;
+      border-bottom: 1px solid var(--clr-border);
+    }
+    .service-full-card:last-child { border-bottom: none; }
+    .service-full-card:nth-child(even) { direction: rtl; }
+    .service-full-card:nth-child(even) > * { direction: ltr; }
+    .service-full-visual {
+      background: var(--clr-mint);
+      border-radius: var(--radius-xl);
+      height: 280px;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--clr-primary); opacity: 0.6;
+    }
+    .service-full-tag { display: inline-block; font-size:0.75rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--clr-primary); background:var(--clr-mint); padding:4px 12px; border-radius:var(--radius-full); margin-bottom:12px; }
+    .service-full-title { font-family:var(--font-display); font-size:clamp(1.6rem,3vw,2.2rem); margin-bottom:16px; }
+    .service-full-desc { color:var(--clr-text-muted); line-height:1.75; margin-bottom:20px; }
+    .service-full-list { display:flex; flex-direction:column; gap:8px; margin-bottom:28px; }
+    .service-full-list li { display:flex; align-items:center; gap:10px; font-size:0.875rem; color:var(--clr-text-muted); }
+    .service-full-list li::before { content:'✓'; color:var(--clr-primary); font-weight:700; flex-shrink:0; }
+    @media(max-width:768px) {
+      .service-full-card { grid-template-columns:1fr; gap:32px; }
+      .service-full-card:nth-child(even) { direction: ltr; }
+    }
+  </style>
+</head>
+<body>
+  <header id="header" role="banner">
+    <nav class="nav-main" style="max-width:var(--max-width);margin:0 auto;padding:20px 24px;display:flex;align-items:center;justify-content:space-between;">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.5 2 5 5 5 9c0 2.5 1 4.5 2 6.5L8 18c.5 1.5 2 4 4 4s3.5-2.5 4-4l1-2.5c1-2 2-4 2-6.5C19 5 15.5 2 12 2z"/></svg></div>
+        <div class="logo-text"><span class="logo-name">The Dental Center</span><span class="logo-tagline">Smile. Heal. Thrive.</span></div>
+      </a>
+      <div style="display:flex;gap:12px;">
+        <a href="index.html" class="btn btn-outline">← Back to Home</a>
+        <a href="index.html#location" class="btn btn-primary">Book Appointment</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-hero">
+      <div class="section-label" style="background:rgba(255,255,255,0.15);color:white;margin-bottom:16px;">Our Services</div>
+      <h1>Complete Dental Services<br>in Greater Noida</h1>
+      <p>Comprehensive, advanced dental care for children and adults — all under one trusted roof.</p>
+    </div>
+
+    <section class="services-full">
+      <div class="container">
+
+        <div id="pediatric" class="service-full-card reveal">
+          <div class="service-full-visual">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          </div>
+          <div>
+            <span class="service-full-tag">🧒 Specialty</span>
+            <h2 class="service-full-title">Pediatric Dentistry</h2>
+            <p class="service-full-desc">We are specialists in child dental care. Our pediatric dentistry practice focuses on creating a positive, fear-free experience for children from infancy through adolescence, setting a foundation for excellent oral health throughout their lives.</p>
+            <ul class="service-full-list">
+              <li>First dental visit guidance &amp; oral health counselling</li>
+              <li>Fluoride treatments &amp; dental sealants</li>
+              <li>Milk tooth fillings &amp; extractions</li>
+              <li>Space maintainers for early tooth loss</li>
+              <li>Early orthodontic assessment</li>
+              <li>Pit &amp; fissure sealants for cavity prevention</li>
+            </ul>
+            <a href="../index.html#location" class="btn btn-primary">Book Pediatric Consult</a>
+          </div>
+        </div>
+
+        <div id="orthodontics" class="service-full-card reveal">
+          <div class="service-full-visual">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          </div>
+          <div>
+            <span class="service-full-tag">😁 Orthodontics</span>
+            <h2 class="service-full-title">Braces &amp; Orthodontics</h2>
+            <p class="service-full-desc">Straighten your teeth and achieve a perfectly aligned smile with our orthodontic solutions. We cater to all ages and all levels of misalignment with personalised treatment plans.</p>
+            <ul class="service-full-list">
+              <li>Traditional metal braces</li>
+              <li>Ceramic (tooth-coloured) braces</li>
+              <li>Clear aligners / Invisible braces</li>
+              <li>Retainers &amp; post-orthodontic care</li>
+              <li>Early-phase interceptive orthodontics for children</li>
+              <li>Adult orthodontic treatments</li>
+            </ul>
+            <a href="../index.html#location" class="btn btn-primary">Book Orthodontic Consult</a>
+          </div>
+        </div>
+
+        <div id="root-canal" class="service-full-card reveal">
+          <div class="service-full-visual">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+          </div>
+          <div>
+            <span class="service-full-tag">🦷 Endodontics</span>
+            <h2 class="service-full-title">Root Canal Treatment</h2>
+            <p class="service-full-desc">Modern root canal treatment is nothing like what you've heard. Our skilled endodontist uses the latest rotary technology to make the procedure fast, comfortable, and completely pain-free — often completed in a single visit.</p>
+            <ul class="service-full-list">
+              <li>Single-sitting root canal with rotary files</li>
+              <li>Digital X-ray guided precision treatment</li>
+              <li>Crown placement post-RCT</li>
+              <li>Re-treatment of failed root canals</li>
+              <li>Paediatric pulpotomy &amp; pulpectomy</li>
+            </ul>
+            <a href="../index.html#location" class="btn btn-primary">Book RCT Consult</a>
+          </div>
+        </div>
+
+        <div id="whitening" class="service-full-card reveal">
+          <div class="service-full-visual">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div>
+            <span class="service-full-tag">✨ Cosmetic</span>
+            <h2 class="service-full-title">Teeth Whitening</h2>
+            <p class="service-full-desc">A brighter smile can transform your confidence. Our professional whitening treatments are safe, effective, and deliver results that are dramatically better than over-the-counter products.</p>
+            <ul class="service-full-list">
+              <li>In-clinic laser whitening (results in 1 hour)</li>
+              <li>Custom take-home whitening kits</li>
+              <li>Safe for sensitive teeth</li>
+              <li>Up to 8 shades brighter</li>
+              <li>Long-lasting results with proper care</li>
+            </ul>
+            <a href="../index.html#location" class="btn btn-primary">Book Whitening Session</a>
+          </div>
+        </div>
+
+        <div id="implants" class="service-full-card reveal">
+          <div class="service-full-visual">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          </div>
+          <div>
+            <span class="service-full-tag">🔧 Implantology</span>
+            <h2 class="service-full-title">Dental Implants</h2>
+            <p class="service-full-desc">The gold standard for replacing missing teeth. Our titanium dental implants fuse naturally with your jaw bone and are topped with beautiful, custom-made crowns that look and feel exactly like natural teeth — for life.</p>
+            <ul class="service-full-list">
+              <li>Single tooth implants</li>
+              <li>Multiple tooth implants</li>
+              <li>Implant-supported dentures</li>
+              <li>Bone grafting when required</li>
+              <li>Immediate loading implants</li>
+              <li>3D treatment planning</li>
+            </ul>
+            <a href="../index.html#location" class="btn btn-primary">Book Implant Consult</a>
+          </div>
+        </div>
+
+        <div id="cosmetic" class="service-full-card reveal">
+          <div class="service-full-visual">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          </div>
+          <div>
+            <span class="service-full-tag">💎 Premium</span>
+            <h2 class="service-full-title">Smile Makeover &amp; Cosmetic Dentistry</h2>
+            <p class="service-full-desc">Your smile is unique, and so is your smile makeover. We combine multiple cosmetic procedures — tailored precisely to your face, skin tone, and aesthetic goals — to give you a smile that's truly yours.</p>
+            <ul class="service-full-list">
+              <li>Porcelain and composite veneers</li>
+              <li>Dental crowns &amp; bridges</li>
+              <li>Composite bonding &amp; contouring</li>
+              <li>Gum contouring (gummy smile correction)</li>
+              <li>Full mouth rehabilitation</li>
+              <li>Digital smile design (DSD)</li>
+            </ul>
+            <a href="index.html#location" class="btn btn-primary">Design My Smile</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" role="contentinfo" style="background:var(--clr-text);padding:40px 24px;text-align:center;color:rgba(255,255,255,0.6);">
+    <p style="font-size:0.8rem; margin-top:20px; opacity:0.6;">© 2025 The Dental Center · Greater Noida West, UP</p>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>

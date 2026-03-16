@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yourdentalsite.com/sitemap.xml
+
+# Disallow admin or backend paths if applicable
+Disallow: /admin/
+Disallow: /wp-admin/
